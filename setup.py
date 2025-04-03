@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ice_connect",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=[
         "pystun3",
@@ -14,7 +14,7 @@ setup(
     description="A Python package for Interactive Connectivity Establishment (RFC 5245) with user-defined STUN servers.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ice_connect",
+    url="https://github.com/yetiman45/ice_connect",
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
